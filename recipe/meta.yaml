@@ -1,5 +1,5 @@
 {% set name = "jupyter-ruff" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/jupyter_ruff-{{ version }}.tar.gz
-  sha256: e9bb9e1a4538fd6624cd19d892da1538397628a8e9263851734c0c733acc7272
+  sha256: 3a348fe622c701a431c404497c420f8881f7092fbc44b5b5ced31292c49c6cd8
 
 build:
   noarch: python
